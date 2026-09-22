@@ -1,6 +1,7 @@
 # Muhammad Rizky - IT Operations & Systems Support Runbook
 
-[![Live Documentation](https://img.shields.io/badge/Live_Site-GitHub_Pages-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://mrizkymxx.github.io/it-support-portfolio/)
+[![Live Site](https://img.shields.io/badge/Live_Site-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://it-support-portfolio-zeta.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrizkymxx/it-support-portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mrizkymxx-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mrizkymxx)
 [![SQL Certified](https://img.shields.io/badge/SQL_Certified-Dicoding_MRZMEG99NPYQ-0052CC?style=for-the-badge&logo=postgresql&logoColor=white)](https://dicoding.com/certificates/MRZMEG99NPYQ)
 
@@ -8,9 +9,9 @@ Repositori dokumentasi operasional IT Support, pemecahan masalah insiden berskal
 
 ---
 
-## Ringkasan Proyek
+## Tautan Live & Akses Cepat
 
-- **Dokumentasi Lengkap:** [https://mrizkymxx.github.io/it-support-portfolio/](https://mrizkymxx.github.io/it-support-portfolio/)
+- **Website Portofolio Resmi:** [https://it-support-portfolio-zeta.vercel.app/](https://it-support-portfolio-zeta.vercel.app/)
 - **Target Peran:** IT Support Specialist, L2 Systems Support Engineer, Junior SysAdmin.
 - **Engine Dokumentasi:** MkDocs Material dengan pencarian instan klien, tab multi-OS, dan diagram Mermaid native.
 
