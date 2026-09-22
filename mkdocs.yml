@@ -1,0 +1,65 @@
+site_name: Muhammad Rizky | IT Operations & Systems Support Runbook
+site_url: https://mrizkymxx.github.io/it-support-portfolio/
+site_author: Muhammad Rizky
+site_description: Enterprise IT Support, Systems Administration, and Infrastructure Runbook Portfolio.
+
+repo_name: mrizkymxx/it-support-portfolio
+repo_url: https://github.com/mrizkymxx/it-support-portfolio
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Kredensial & Sertifikasi: certifications.md
+  - Studi Kasus Insiden (ITIL):
+      - 'INC-01 Kerberos Clock Skew': incidents/INC-202609-kerberos-auth-skew.md
+      - 'INC-02 DNS Cache Poisoning / Internal Resolution': incidents/INC-202609-dns-resolution-outage.md
+      - 'INC-03 M365 Conditional Access Lockout': incidents/INC-202609-m365-conditional-access.md
+  - SOP Operasional:
+      - Active Directory - Onboarding: sops/active-directory/user-onboarding.md
+      - Linux - Rotasi SSL Certbot: sops/linux/ssl-rotation-certbot.md
+  - Arsitektur Jaringan:
+      - Matriks Segmentasi VLAN: networking/vlan-segmentation-matrix.md
+      - Aturan Firewall Edge: networking/edge-firewall-rules.md
+  - Otomasi & Skrip:
+      - PowerShell - Audit Akun AD Inaktif: scripts/powershell/audit-stale-ad-accounts.md
+      - Bash - Monitor Service & Auto-Restart: scripts/bash/service-watchdog.md
+# ponytail: native material features cover instant search, code copy, and dark mode without custom css.
